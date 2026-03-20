@@ -64,8 +64,8 @@ export default function About() {
 
           {/* CV Button */}
           <a
-            href="/assets/cv.pdf"
-            download
+            href="/Yusuf_Solomon_CV.pdf"
+            download = "Yusuf_Solomon_CV.pdf"
             className="inline-block mt-4 px-6 py-2.5 border border-green-400 text-green-400 font-mono text-sm rounded hover:bg-green-400/10 transition-colors"
           >
             ↓ Download CV
