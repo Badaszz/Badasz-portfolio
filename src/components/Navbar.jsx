@@ -17,11 +17,13 @@ export default function Navbar() {
       scrolled ? "bg-black/80 backdrop-blur-md border-b border-green-500/20" : "bg-transparent"
     }`}>
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-        
         {/* Logo */}
-        <span className="text-green-400 font-mono font-bold text-xl tracking-widest">
-          &lt;Badasz /&gt;
-        </span>
+        <div className="flex flex-col items-start">
+          <span className="text-green-400 font-mono font-bold text-xl tracking-widest">
+            &lt;Badasz /&gt;
+          </span>
+          <span className="text-xs text-gray-300 mt-1">John 3:16</span>
+        </div>
 
         {/* Desktop Nav Links */}
         <ul className="hidden md:flex gap-8">
