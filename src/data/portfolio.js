@@ -220,29 +220,25 @@ Hobbies: chess, math puzzles, anime, fashion, video games, philosophy discussion
 - Python for Machine Learning — University of Michigan / Coursera
 
 == PROJECTS ==
-1. Oil Spill Detection — UNet deep learning model on satellite imagery. ONNX model served via FastAPI. Dockerized and deployed on Kubernetes with HPA. Returns red-overlaid segmentation masks.
+1. Oil Spill Detection — AI-powered oil spill segmentation system using a UNet model on satellite imagery. The model is exported to ONNX, served with FastAPI, containerized with Docker, and deployed on Kubernetes with horizontal pod autoscaling.
 
-2. Philosophical Debate Simulator — Multi-turn LLM debate system. LangGraph orchestration, Groq (Llama 3) for inference, Tavily web search + Wikipedia enrichment. FastAPI backend + Streamlit frontend. Docker containerized.
+2. Philosophical Debate Simulator — A multi-turn debate engine where synthetic philosopher agents argue a topic using LangGraph orchestration, Groq LLM inference, Tavily web retrieval, and Wikipedia enrichment. It includes a FastAPI backend, a live SSE-driven frontend, Google auth, and admin-managed usage controls. Live demo: philosophical-debates.vercel.app.
 
-3. Hand Gesture-Controlled Drone (Final Year Project) — MediaPipe gesture recognition controls a drone via MAVLink and MSP protocols. ESP32-CAM in nadir orientation for image capture. Triggers automated topographic mapping with photogrammetry. Tkinter GUI.
+3. Hand Gesture-Controlled Drone — Final year project using MediaPipe hand-tracking to control a drone through MAVLink and MSP protocols, with ESP32-CAM imagery and an automated topographic mapping workflow.
 
-4. Autonomous Search & Sample Return Rover — ROS-style navigation pipeline in Udacity simulator. Achieves ~97% terrain mapping. Collects 5+/6 samples. Wall-crawling, stuck detection, path-backtracking return-to-home.
+4. Autonomous Search & Sample Return Rover — ROS-style navigation pipeline in the Udacity simulator focused on terrain mapping, sample collection, and autonomous return-to-home behavior.
 
-5. A* Path Planning Demo — Interactive 2D grid path planner with variable-cost ash terrain. Side-by-side Dijkstra vs A* comparison with stats. Click-to-set-goal via Matplotlib.
+5. A* Path Planning Demo — Interactive 2D path-planning app comparing A* and Dijkstra on variable-cost terrain.
 
-6. ML Models from Scratch — Ridge Regression, Logistic Regression, Neural Networks, KNN, Decision Trees, K-Means, PCA — all implemented with only Python and NumPy.
+6. ML Models from Scratch — Implementations of foundational ML algorithms such as Ridge Regression, Logistic Regression, Neural Networks, KNN, Decision Trees, K-Means, and PCA using only Python and NumPy.
 
-7. LLM Grind — Personal LLM learning workspace. GPT-2 analysis, NanoGPT trained on Shakespeare, seq2seq pipelines, decoding strategies (greedy, beam, top-k, nucleus), English-Yoruba parallel data experiments.
-
-8. Vehicle Detection & Counting — Real-time YOLO + OpenCV system for vehicle detection and counting. Streamlit frontend.
-
-9. Naive Obstacle Avoidance Robot — ROS2 robot that avoids obstacles using sensor feedback. Simulated in Gazebo with LiDAR.
+7. LLM Grind — Personal experiments with LLMs, including GPT-2 analysis, NanoGPT training, decoding strategies, and English-Yoruba data work.
 
 == SKILLS ==
-ML/AI: Python, PyTorch, TensorFlow, Scikit-learn, YOLOv8, Hugging Face, MLflow, OpenCV, MediaPipe
-MLOps: Docker, GitHub Actions, CI/CD, Great Expectations, Feature Stores, Kubernetes
+ML/AI: Python, PyTorch, TensorFlow, Scikit-learn, YOLOv8, Hugging Face, OpenCV, MediaPipe, LLM engineering, RAG
+MLOps: Docker, GitHub Actions, Kubernetes, FastAPI, CI/CD, model deployment
 Robotics: ROS2, Raspberry Pi, Arduino, ESP32, DroneKit, MAVLink, MSP, Gazebo
-Software: React, Tailwind CSS, FastAPI, Streamlit, JavaScript, HTML/CSS, Git
+Software: React, Tailwind CSS, Vite, JavaScript, TypeScript, HTML/CSS, Git
 Languages: Python (primary), C/C++, JavaScript, Bash
 
 == ONLINE PRESENCE ==
