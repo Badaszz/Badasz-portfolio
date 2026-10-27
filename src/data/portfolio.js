@@ -70,11 +70,11 @@ export const portfolioData = {
   {
     title: "Philosophical Debate Simulator",
     description:
-      "Multi-turn LLM debate system between synthetic philosopher agents. Uses LangGraph for stateful orchestration, Groq (Llama 3) for inference, Tavily for web retrieval, and Wikipedia enrichment. Exposed via FastAPI with a Streamlit frontend.",
-    tags: ["Python", "LangGraph", "Groq", "FastAPI", "Streamlit", "Tavily", "Docker"],
+      "A lightweight framework for generating and running multi-turn philosophical debates between synthetic philosopher agents. It blends LLM persona generation, external retrieval from Tavily and Wikipedia, and stateful graph orchestration with LangGraph, with live SSE updates in the browser.",
+    tags: ["Python", "FastAPI", "LangGraph", "Groq", "React", "TypeScript", "Supabase", "SSE", "Tavily", "Wikipedia"],
     category: "AI Engineering",
     github: "https://github.com/badaszz",
-    demo: null,
+    demo: "https://philosophical-debates.vercel.app",
     status: "Completed",
   },
   {
